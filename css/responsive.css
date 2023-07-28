@@ -1,0 +1,261 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+@media(max-width:1024px){
+    .firstPage-text{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .menu ul li a{
+        font-size: 17px;
+        padding: 10px;
+    }
+}
+@media(max-width:991px){
+    .menu{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .contact-item{
+        padding:0 100px ;
+    }
+    .firstPage-text{
+        width: 100%;
+    }
+    .firstPage .none{
+        width: 0px;
+    }
+
+}
+
+/*  */
+@media(max-width:768px){
+    .firstPage-text{
+        width: 100%;
+    }
+    .firstPage .none{
+        width: 0px;
+    }
+    .sndpage_items{
+      justify-content: center;
+    }
+.sndpage_items .sndpage_snd_itm{
+    width: 80%;
+}
+    .veerRecentWork-buttons button{
+        padding: 0 20px;
+    }
+    .clientReviews{
+        margin-top: 100px;
+    }
+    .contact-item{
+        padding:0 50px ;
+    }
+    .contact-item form input:nth-child(1){
+        width: 100%;
+    }
+    .contact-item form input:nth-child(2){
+        width: 100%;
+    }
+    .contact-item textarea{
+        height: 150px;
+    }
+    .contact-item button{
+        margin-top: 15px;
+        padding: 10px 30px;
+
+    }
+
+
+
+
+}
+
+
+
+/*  */
+@media(max-width:576px){
+    .secoundPage-item-img{
+        margin-top: 35px;
+    }
+    .secoundPage{
+        padding: 80px 0;
+    }
+    .secoundPage-item-img-top{
+        right: 60%;
+    }
+    .secoundPage-item-img-bottom{
+        left: 77%;
+    }
+
+    .ourBlog-item1{
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .contact-item{
+        padding:0 10px ;
+    }
+
+}
+
+
+/*  */
+@media(max-width:425px){
+  .headerArea {
+    padding: 10px;
+  }
+    .firstPage-text{
+        margin-left: 0px;
+    }
+.firstPage-text p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+
+}
+.firstPage-text span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #dcdde1;
+}
+.firstPage-text button{
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    padding: 15px 40px;
+    border: solid 1px #e84118;
+    background: #e84118;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 10px;
+    color: #dcdde1;
+}
+.sndpage_txt{
+  width: 100%;
+}
+ .sndpage_snd_itm_txt_icon_fst > p{
+    font-size: 20px;
+ }
+ .sndpage_snd_itm_txt_icon_snd > p{
+    font-size: 20px;
+ }
+    .veerRecentWork-buttons button{
+        padding: 0 10px;
+    }
+    .footer-items{
+        margin-top: 20px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+
+
+@media(max-width:320px){
+.firstPage-text span{
+  font-size: 14px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 850px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info:before {
+    bottom: initial;
+    top: -75px;
+    right: 65px;
+    transform: scale(0.95);
+  }
+
+  .contact-form:before {
+    top: -13px;
+    left: initial;
+    right: 70px;
+  }
+
+  .square {
+    transform: translate(140%, 43%);
+    height: 350px;
+  }
+
+  .big-circle {
+    bottom: 75%;
+    transform: scale(0.9) translate(-40%, 30%);
+    right: 50%;
+  }
+
+  .text {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  .social-media {
+    padding: 1.5rem 0 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .contact-info:before {
+    display: none;
+  }
+
+  .square,
+  .big-circle {
+    display: none;
+  }
+
+  form,
+  .contact-info {
+    padding: 1.7rem 1.6rem;
+  }
+
+  .text,
+  .information,
+  .social-media p {
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 1.15rem;
+  }
+
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .icon {
+    width: 23px;
+  }
+
+  .input {
+    padding: 0.45rem 1.2rem;
+  }
+
+  .btn {
+    padding: 0.45rem 1.2rem;
+  }
+}
